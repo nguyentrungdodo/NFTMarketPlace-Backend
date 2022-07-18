@@ -1,0 +1,8 @@
+node_modules
+
+.prettierrc
+test_api
+jsconfig.json
+yarn.lock
+error.log
+test_api

@@ -1,0 +1,24 @@
+
+POST http://localhost:3000/user/signin
+Content-Type: application/json
+ 
+{
+ "name":"Tandeptrai",
+ "email": "tan124125laall@gmail.com",
+ "password":"Le@123456",
+ "confirmPassword":"Le@123456"
+}
+// throw (400,message)
+###
+POST http://localhost:3001/user/active/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRhbjEyMTIxMjYxMjYxNTEyQGdtYWlsLmNvbSIsImlhdCI6MTY0NTQzMjQzMSwiZXhwIjoxNjQ1NDMyNzMxfQ.WXWNHe7cYE5e28RSCJsguzSr1oLNUOwOobreoFqVEQA
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5ndXllbnRhbkBnbWFpbC5jb20iLCJ1c2VySWQiOjEsInVzZXJfaWQiOjEsImlhdCI6MTY0NjYxOTg0MCwiZXhwIjoxNjQ2NzA2MjQwfQ.VbwD01ywNFhlhPz1o7rVQa_VaK0WjDX3w0lWz9SLK9U
+####
+
+
+
+POST http://localhost:3000/media/cloud
+Content-Type: application/json
+ 
+{
+ "image":"https://res.cloudinary.com/imdo2412/image/upload/v1657233891/nft_generator/zvxbfco3jorcarodvrf2.jpg"
+}
